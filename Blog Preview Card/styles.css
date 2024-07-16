@@ -1,0 +1,84 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Figtree', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.blogcard {
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 336px;
+    border: 1px solid black;
+    padding: 24px;
+    box-shadow: 8px 8px 0 black;
+}
+
+.blogcard:hover {
+    box-shadow: 16px 16px 0 black;
+}
+
+.blogcard:hover h2 {
+    color: hsl(47, 88%, 63%);
+}
+
+.blogcard img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.blogcard .category {
+    background-color: hsl(47, 88%, 63%);
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.blogcard .date {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.blogcard h2 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.blogcard p {
+    color: hsl(0, 0%, 50%);
+    font-weight: lighter;
+}
+
+.blogcard .author {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.blogcard .author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.blogcard .author-name {
+    font-weight: bold;
+    font-size: 12px;
+}
