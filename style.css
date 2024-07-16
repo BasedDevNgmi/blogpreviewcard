@@ -1,0 +1,77 @@
+/* style.css */
+
+body {
+    margin: 0;
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.whitebox {
+    background-color: white;
+    padding: 16px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+}
+
+.qrbox {
+    border-radius: 10px;
+}
+
+.qrboximg img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.qrboxtxt {
+    padding: 0px 16px 16px 16px;    
+}
+
+.qrboxtxt h1 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #1f314f; 
+}
+
+.qrboxtxt p {
+    font-size: 1em;
+    color: #666;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+@media (max-width: 600px) {
+    .whitebox {
+        padding: 12px;
+    }
+
+    .qrbox {
+        padding: 12px;
+    }
+
+    .qrboxtxt h1 {
+        font-size: 1.2em;
+    }
+
+    .qrboxtxt p {
+        font-size: 0.9em;
+    }
+}
